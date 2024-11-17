@@ -4,6 +4,9 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 
+# sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+# pip install mysqlclient
+
 load_dotenv()
 
 app = Flask(__name__)
